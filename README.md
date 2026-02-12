@@ -1,4 +1,4 @@
-# 🧠 Healthcare AI & Biomedical Machine Learning Portfolio
+# 🧠 Healthcare AI & Biomedical Study Record Portfolio
 
 안녕하세요.
 본 저장소는 2025.09.27 ~ 2026.03 동안 진행한 OZ Coding School Healthcare AI BootCamp 과정에서 수행한 연구, 프로젝트 및 실습 기록을 정리한 포트폴리오입니다.
