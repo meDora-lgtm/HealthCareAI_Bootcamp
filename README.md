@@ -6,8 +6,8 @@
 저는 기계시스템공학을 기반으로 의료 인공지능(Healthcare AI)과 생체신호 분석 분야를 목표로 학습 및 프로젝트를 진행하고 있으며,
 의료 데이터 분석 → 모델링 → 임상 의사결정 보조 시스템(CDSS) 개발까지 이어지는 경험을 축적하고 있습니다.
 
-## 📂 Repository Contents
-📑 1. Paper Review
+# 📂 Repository Contents
+## 📑 1. Paper Review
 
 의료 AI 프로젝트를 진행하면서 읽은 논문들을 정리한 공간입니다.
 
