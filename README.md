@@ -23,24 +23,7 @@ Computer Vision
 데이터 특성 · 사용된 알고리즘 · 임상적 의미 중심으로 리뷰 및 발표를 진행했습니다.
 발표 후 2~3번 더 읽고 모르는 내용 또는 놓친 부분을 추가적으로 이해하려고 시도하였습니다.
 
-## 🧩 2. Python Class Module Assignment
-
-Python의 객체지향 프로그래밍(OOP)을 활용하여
-캐릭터 생성 시스템을 구현한 과제입니다.
-
-구현 내용
-
-클래스 기반 캐릭터 설계
-
-속성(HP, 공격력, 방어력 등) 관리
-
-캐릭터 상태 변화 로직 구현
-
-GUI 형태의 캐릭터 생성 창 구현
-
-파이썬 class 기본기 다지기 활동 중 하나
-
-## 🫁 3. CNN 기반 폐 영상 분석 모델
+## 🫁 2. CNN 기반 폐 영상 분석 모델
 
 의료 영상 데이터를 활용하여 폐 질환 여부를 예측하는 딥러닝 모델을 구축한 프로젝트입니다.
 (세부 내용은 추후 업데이트 예정)
@@ -55,7 +38,7 @@ Convolutional Neural Network (CNN)
 
 의료 영상 분류 모델 학습
 
-## 🚬 4. Smoke Status Prediction (Hackathon)
+## 🚬 3. Smoke Status Prediction (Hackathon)
 
 건강검진 데이터를 활용한 흡연 여부 예측 머신러닝 모델
 
@@ -78,7 +61,7 @@ accuracy 기반 평가
 배운 점
 의료 데이터는 모델보다 전처리와 변수 설계가 성능을 결정한다는 것을 경험한 프로젝트입니다.
 
-## 🧬 5. IVF Pregnancy Success Prediction(Hackathon)
+## 🧬 4. IVF Pregnancy Success Prediction(Hackathon)
 
 난임 환자의 시험관 아기(IVF) 시술 성공 여부 예측 AI 프로젝트
 
@@ -133,9 +116,10 @@ Personalized Healthcare AI
 📌 Goal
 
 기계공학에서 배우는 인간 움직임 분석 및 신호 해석을 의료 데이터 분석과 결합하여
-실제 임상에서 활용 가능한 의료 AI 시스템을 개발하는 연구자가 되는 것이 목표입니다.
+실제 임상에서 활용 가능한 의공학 연구자가 되는 것이 목표입니다.
 
 📬 Contact
 
 Email: gudwns5863@jbnu.ac.kr
+
 Phone: 010-9617-5863
