@@ -86,10 +86,10 @@ daicon 제공 개인 혈액 검사 및 건강 지표 데이터를 기반으로
 
 ### 핵심 수행 내용
 - 결측치 처리
-- 이상치 제거 (Outlier Handling)
-- 파생 변수 생성 (Feature Engineering) — 총 8가지 기법 적용
-- 데이터 분포 분석 (EDA)
-- AutoGluon 기반 모델 학습 및 자동 앙상블
+- 이상치 제거 (IQR)
+- 데이터 분석후, 피쳐 중요도 확인 후 하나씩 제거해보는 방법 으로 점수 상승
+- BMI 칼럼이 키, 몸무게 피쳐와 내용 연관도 면에서 겹치는 것 확인 후 다중공선성 발생 여부 제거하기 위해 BMI 칼럼 제거
+- AutoGluon 기반 모델 학습 및 자동 앙상블 모델링
 
 ### 평가 지표
 - Accuracy 기반 평가
@@ -108,7 +108,7 @@ daicon 난임 환자의 시험관 아기(IVF) 시술 성공 여부 예측 AI 프
 난임 환자 임상 데이터를 활용한 환자 임신 성공 가능성 예측 머신러닝 모델 개발
 
 ### 문제 배경
-- IVF 성공률은 평균적으로 20~40% 수준
+- IVF(시험관 배아 시술) 성공률은 평균적으로 20~40% 수준
 - 반복 시술로 인한 경제적/심리적 부담 존재
 - 의료진의 경험에 의존한 의사결정 구조
 
@@ -123,18 +123,16 @@ daicon 난임 환자의 시험관 아기(IVF) 시술 성공 여부 예측 AI 프
 - 불임 원인 포함 67가지 피쳐 전처리 학습
 
 ### 모델링
-- CatBoost
-- LightGBM
-- XGBoost
+- LightGBM -> 며러 모델 비교 후 최종 선택
 - Optuna → 하이퍼파라미터 최적화
-- 앙상블 모델 적용 → 최적의 모델 개발
+- 앙상블 모델 적용 해보았지만, 모델 복잡해짐에 따라 점수 하강 → 최적의 모델 개발위해 단일 모델 사용
 
 ### 핵심 작업 (논문 탐색)
 
 **Can repeat IVF/ICSI cycles compensate for the natural decline in fertility with age?**  
 *an estimate of cumulative live birth rates over multiple IVF/ICSI cycles in Chinese advanced-aged population*
 
-고령 여성 관련 난임 논문을 확인하고 파생변수 생성 시도
+고령 여성 관련 난임 논문을 확인하고 파생변수 생성 시도 -> 크게 점수 변화에 영향을 주지 못하지만, 점수 상승 확인
 
 - 고령 여성은 시험관 여러 번 하면 자연적인 가임력 감소를 어느 정도 만회할 수 있나? 를 실제 데이터로 분석한 논문
 - 논문 결론에서 고령 여성도 반복하면 성공률이 올라가긴 한다 하지만 나이 증가로 인한 가임력을 완전히 회복하지 못한다는 걸 확인
@@ -143,14 +141,6 @@ daicon 난임 환자의 시험관 아기(IVF) 시술 성공 여부 예측 AI 프
 
 논문 링크  
 https://www.aging-us.com/article/203055/text
-
----
-
-# 🛠️ Skills
-
-**Language & Tools**  
-Python, Machine Learning, Scikit-learn, XGBoost, LightGBM, CatBoost, AutoGluon, Optuna,  
-Data Analysis, Pandas, Numpy, Matplotlib, Seaborn, Deep Learning, PyTorch (CNN)
 
 ---
 
