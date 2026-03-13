@@ -142,22 +142,6 @@ daicon 난임 환자의 시험관 아기(IVF) 시술 성공 여부 예측 AI 프
 논문 링크  
 https://www.aging-us.com/article/203055/text
 
----
-
-# 🎯 Research Interest
-- Biomedical Signal Processing
-- Gait Analysis
-- Fall Risk Prediction
-- Personalized Healthcare AI
-
----
-
-# 📌 Goal
-기계공학에서 배우는 인간 움직임 분석 및 신호 해석을 의료 데이터 분석과 결합하여  
-실제 임상 및 일상생활에서 활용 가능한 기술을 다루는 의공학 연구자가 되는 것이 목표입니다.
-
----
-
 # 📬 Contact
 - Email: gudwns5863@jbnu.ac.kr
 - Phone: 010-9617-5863
