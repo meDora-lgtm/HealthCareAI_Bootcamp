@@ -37,7 +37,7 @@
 
 의료 영상 데이터를 활용하여 폐렴 여부를 예측하는 딥러닝 모델을 구축 과제 정리입니다.
 
-**모델 주소**  
+**모델에 활용한 데이터셋 주소**  
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?select=chest_xray  
 kaggle 폐렴 흉부 x-ray 이미지 데이터셋 활용
 
@@ -55,7 +55,7 @@ valid (Pneumonia / Normal)
 ### 데이터 증강
 의료 영상 데이터는 개수가 적기 때문에 과적합 매우 많이 발생 → 인위적으로 데이터를 조금씩 변형시켜 일반화 성능 향상 시켜야 함
 
-사용한 증강
+사용한 증강기법
 - Random Horizontal Flip
 - Random Rotation
 - Random Zoom
@@ -67,8 +67,7 @@ valid (Pneumonia / Normal)
 ### Classifier
 - 손실함수 : Binary Crossentropy
 - Optimizer : Adam
-- Metric : Accuracy, Precision, Recall, F1  
-  (의료 데이터는 accuracy 만으로 평가하지 않음)
+- Metric : Accuracy, Precision, Recall, F1
 
 ### results
 accuracy: 0.8462 - f1: 0.8868 - loss: 0.3638 - precision: 0.8210 - recall: 0.9641 
@@ -95,13 +94,13 @@ daicon 제공 개인 혈액 검사 및 건강 지표 데이터를 기반으로
 - Accuracy 기반 평가
 
 ### 배운 점
-의료 데이터는 모델보다 전처리와 변수 설계가 성능을 결정한다는 것을 경험한 프로젝트입니다.
+의료 데이터는 모델보다 전처리와 변수 설계가 성능을 결정한다는 것을 경험한 프로젝트였다
 
 ---
 
 ## 🧬 4. IVF Pregnancy Success Prediction (Hackathon)
 
-daicon 난임 환자의 시험관 아기(IVF) 시술 성공 여부 예측 AI 프로젝트
+dacon 난임 환자의 시험관 아기(IVF) 시술 성공 여부 예측 AI 프로젝트
 
 **ROC-AUC : 0.742**
 
